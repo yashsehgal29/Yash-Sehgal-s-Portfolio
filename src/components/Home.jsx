@@ -80,11 +80,8 @@ const Home = () => {
 
           {/* downloadcv button */}
           <div className="mt-[20px] w-fit">
-            <a href="/src/assets/Yash_Sehgal_resume.pdf" download={true}>
-              <button
-                onClick={handledownload}
-                className="flex gap-2 font-extrabold border-[#14FFEC] border-2 p-3 rounded-2xl shadow shadow-[#14FFEC] hover:shadow-md hover:shadow-[#14FFEC]  transition duration-300"
-              >
+            <a href="/src/assets/Resume Yash Sehgal.pdf" download={true}>
+              <button className="flex gap-2 font-extrabold border-[#14FFEC] border-2 p-3 rounded-2xl shadow shadow-[#14FFEC] hover:shadow-md hover:shadow-[#14FFEC]  transition duration-300">
                 Download CV
                 <ArrowDownToLine strokeWidth={2.75} absoluteStrokeWidth />
               </button>

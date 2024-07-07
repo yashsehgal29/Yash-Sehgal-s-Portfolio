@@ -31,9 +31,9 @@ const Contact = () => {
       </div>
       {/* form */}
       <form className="flex items-center justify-start ml-[20%] w-full h-full">
-        <div className="flex flex-col w-full lg:w-1/2 gap-y-5 h-2/3">
-          <div className="flex flex-col lg:flex-row  gap-[1%] justify-start  w-1/2">
-            <label htmlFor="name" className="text-[110%]">
+        <div className="flex flex-col w-full lg:w-2/3 gap-y-5 h-2/3">
+          <div className="flex flex-col lg:flex-row  gap-[5%] justify-start lg:items-center  w-1/2">
+            <label htmlFor="name" className="text-[110%] mb-4">
               {" "}
               Your Name :
             </label>
@@ -42,11 +42,11 @@ const Contact = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="bg-[#323232] mix-blend-color-dodge  px-5 py-1 rounded-lg  focus:outline-none focus:ring-2 focus:ring-[#14FFEC] "
+              className="bg-[#323232] mix-blend-color-dodge h-12  px-5 py-1 rounded-lg  focus:outline-none focus:ring-2 focus:ring-[#14FFEC] "
             />
           </div>
-          <div className="flex flex-col lg:flex-row   gap-[2%] justify-start  w-1/2">
-            <label htmlFor="email" className="text-[110%]">
+          <div className="flex flex-col lg:flex-row  gap-[5%] justify-start lg:items-center w-1/2">
+            <label htmlFor="email" className="text-[110%] mb-4">
               {" "}
               Your Email :
             </label>
@@ -55,11 +55,11 @@ const Contact = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="bg-[#323232] mix-blend-color-dodge  px-5 py-1 rounded-lg  focus:outline-none focus:ring-2 focus:ring-[#14FFEC]  "
+              className="bg-[#323232] mix-blend-color-dodge h-12  px-5 py-1 rounded-lg  focus:outline-none focus:ring-2 focus:ring-[#14FFEC]  "
             />
           </div>
-          <div className="flex flex-col lg:flex-row gap-[2%] justify-start lg:items-start  w-full">
-            <label htmlFor="message" className="text-[110%] ">
+          <div className="flex flex-col lg:flex-row gap-[5%] justify-start lg:items-start  w-full">
+            <label htmlFor="message" className="text-[110%] mb-4">
               Message :
             </label>
             <textarea

@@ -8,7 +8,7 @@ const Header = () => {
     setisopen(!isopen);
   };
   return (
-    <div className=" top-0 flex justify-evenly lg:justify-between  w-screen h-24 bg-[#323232]  items-center sticky  ">
+    <div className=" top-0 flex justify-evenly lg:justify-between  w-screen h-24 bg-[#323232]  items-center fixed ">
       <ScrollLink
         to="home"
         smooth={true}
@@ -76,16 +76,73 @@ const Header = () => {
       </div>
       {/* navbar for smaller screen sm and md */}
       <div
-        className="block cursor-pointer hover:flex hover:flex-col lg:hidden hover:bg-[#545151] p-4 rounded-full group relative"
+        className="block cursor-pointer hover:flex hover:flex-col lg:hidden hover:bg-[#545151] p-4 rounded-full group relative "
         onClick={handletoggle}
       >
         <Menu />
         {/* menu panel */}
         {isopen ? (
-          <div className="absolute right-0 w-full text-2xl py-3 px-4 bg-[#323232]">
-            <div>hello</div>
-            <div>my</div>
-            <div>Name</div>
+          <div className="absolute bg-opacity-60 mt-10 right-0  text-xl py-3 px-4 bg-[#323232] font-comforta">
+            <div className="w-full py-2">
+              <ScrollLink
+                to="home"
+                offset={-90}
+                smooth={true}
+                duration={500}
+                className="cursor-pointer group"
+                onClick={handletoggle}
+              >
+                Home
+              </ScrollLink>
+            </div>
+            <div className="w-full py-2">
+              <ScrollLink
+                to="about"
+                offset={-90}
+                smooth={true}
+                duration={500}
+                className="cursor-pointer group"
+                onClick={handletoggle}
+              >
+                About
+              </ScrollLink>
+            </div>
+            <div className="w-full py-2">
+              <ScrollLink
+                to="skills"
+                offset={-90}
+                smooth={true}
+                duration={500}
+                className="cursor-pointer group"
+                onClick={handletoggle}
+              >
+                Skills
+              </ScrollLink>
+            </div>
+            <div className="w-full py-2">
+              <ScrollLink
+                to="projects"
+                offset={-90}
+                smooth={true}
+                duration={500}
+                className="cursor-pointer group"
+                onClick={handletoggle}
+              >
+                Projects
+              </ScrollLink>
+            </div>
+            <div className="w-full py-2">
+              <ScrollLink
+                to="contact"
+                offset={-90}
+                smooth={true}
+                duration={500}
+                className="cursor-pointer group hover:bg-[#646161]"
+                onClick={handletoggle}
+              >
+                Contact
+              </ScrollLink>
+            </div>
           </div>
         ) : (
           <div></div>

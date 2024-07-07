@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex items-center justify-center text-sm lg:text-lg ">
         <p className="text-center">
           {" "}
-          Copyright &copy; 2024 Yash Sehgal All Rights Reserved.
+          &copy; {new Date().getFullYear()} Yash Sehgal -- All rights reserved.
         </p>
       </div>
       {/* icons */}

@@ -11,22 +11,24 @@ import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 function App() {
   return (
-    <div className="w-screen bg-[#232222] bg-cover text-[#14FFEC] ">
+    <div className="w-screen bg-[#232222] bg-cover text-[#14FFEC] overflow-x-hidden">
       <Header />
-      <div id="home">
-        <Home />
-      </div>
-      <div id="about">
-        <About />
-      </div>
-      <div id="skills">
-        <Skills />
-      </div>
-      <div id="projects">
-        <Projects />
-      </div>
-      <div id="contact">
-        <Contact />
+      <div className="pt-24">
+        <div id="home">
+          <Home />
+        </div>
+        <div id="about">
+          <About />
+        </div>
+        <div id="skills">
+          <Skills />
+        </div>
+        <div id="projects">
+          <Projects />
+        </div>
+        <div id="contact">
+          <Contact />
+        </div>
       </div>
 
       <Footer />
