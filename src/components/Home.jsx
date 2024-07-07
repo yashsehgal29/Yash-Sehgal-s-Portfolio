@@ -80,7 +80,11 @@ const Home = () => {
 
           {/* downloadcv button */}
           <div className="mt-[20px] w-fit">
-            <a href="/src/assets/Resume Yash Sehgal.pdf" download={true}>
+            <a
+              href="https://drive.google.com/file/d/1b29tjebbLcQf-1BdZHJrhVDurW5e51WH/view?usp=sharing"
+              target="_blank"
+              download={true}
+            >
               <button className="flex gap-2 font-extrabold border-[#14FFEC] border-2 p-3 rounded-2xl shadow shadow-[#14FFEC] hover:shadow-md hover:shadow-[#14FFEC]  transition duration-300">
                 Download CV
                 <ArrowDownToLine strokeWidth={2.75} absoluteStrokeWidth />
@@ -93,7 +97,7 @@ const Home = () => {
           <div className="flex items-center justify-center w-full lg:w-1/2">
             <img
               src="https://github.com/yashsehgal29/images/blob/main/Mask%20group.png?raw=true"
-              alt=""
+              alt="Yash Sehgal"
             />
           </div>
         </div>

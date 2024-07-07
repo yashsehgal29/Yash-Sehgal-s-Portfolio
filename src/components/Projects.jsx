@@ -7,13 +7,14 @@ const data = [
     title:
       " Efficient Convolution Models for Abnormal Heartbeat Signal Detection",
     desc: " Developed a Python-based heartbeat analyzer using TensorFlow and Keras to classify ECG data, ",
-    gitlink: "",
+    gitlink:
+      "https://github.com/yashsehgal29/Abnormal-heart-beat-detection-using-CNN",
     hostlink: ""
   },
   {
     title: " LLM Chat Bot ",
     desc: "Created a cutting-edge Chatbot using advanced pre-trained models, including Mistral 7b, Mistral 8x7b, Llama27b, and Llama2 70b. Leveraged a diverse array of open-source LLMs to create highly efficient conversational AIsolution",
-    gitlink: "",
+    gitlink: "https://github.com/yashsehgal29/LLMChat-bot",
     hostlink: ""
   },
   {
