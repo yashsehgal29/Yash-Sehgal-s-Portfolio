@@ -81,7 +81,7 @@ const Home = () => {
           {/* downloadcv button */}
           <div className="mt-[20px] w-fit">
             <a
-              href="/src/assets/Resume Yash Sehgal.pdf"
+              href="https://drive.google.com/file/d/1Ohuniewoe5_Pcjy6IMbUebfkzcmk0-ta/view?usp=sharing"
               target="_blank"
               download={true}
             >
