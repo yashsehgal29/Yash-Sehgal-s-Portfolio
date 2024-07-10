@@ -8,7 +8,7 @@ const Header = () => {
     setisopen(!isopen);
   };
   return (
-    <div className=" top-0 flex justify-evenly lg:justify-between  w-screen h-24 bg-[#323232]  items-center fixed ">
+    <div className=" top-0 flex justify-evenly lg:justify-between  w-screen h-24 bg-[#323232]  items-center fixed z-50">
       <ScrollLink
         to="home"
         smooth={true}

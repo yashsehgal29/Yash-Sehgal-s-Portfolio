@@ -8,63 +8,38 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
+import FadeInSection from "./components/FadeinSection";
 
 function App() {
-  const [homeRef, homeInView] = useInView({ triggerOnce: false });
-  const [aboutRef, aboutInView] = useInView({ triggerOnce: false });
-  const [skillsRef, skillsInView] = useInView({ triggerOnce: false });
-  const [projectsRef, projectsInView] = useInView({ triggerOnce: false });
-  const [contactRef, contactInView] = useInView({ triggerOnce: false });
-
   return (
     <div className="w-screen bg-[#232222] bg-cover text-[#14FFEC] overflow-x-hidden">
       <Header />
       <div className="pt-24">
-        <div
-          id="home"
-          ref={homeRef}
-          className={`transition-opacity duration-1000 ${
-            homeInView ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <Home />
-        </div>
-        <div
-          id="about"
-          ref={aboutRef}
-          className={`transition-opacity duration-1000 ${
-            aboutInView ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <About />
-        </div>
-        <div
-          id="skills"
-          ref={skillsRef}
-          className={`transition-opacity duration-1000 ${
-            skillsInView ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <Skills />
-        </div>
-        <div
-          id="projects"
-          ref={projectsRef}
-          className={`transition-opacity duration-1000 ${
-            projectsInView ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <Projects />
-        </div>
-        <div
-          id="contact"
-          ref={contactRef}
-          className={`transition-opacity duration-5000 ${
-            contactInView ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <Contact />
-        </div>
+        <FadeInSection>
+          <div id="home">
+            <Home />
+          </div>
+        </FadeInSection>
+        <FadeInSection>
+          <div id="about">
+            <About />
+          </div>
+        </FadeInSection>
+        <FadeInSection>
+          <div id="skills">
+            <Skills />
+          </div>
+        </FadeInSection>
+        <FadeInSection>
+          <div id="projects">
+            <Projects />
+          </div>
+        </FadeInSection>
+        <FadeInSection>
+          <div id="contact">
+            <Contact />
+          </div>
+        </FadeInSection>
       </div>
       <Footer />
     </div>
