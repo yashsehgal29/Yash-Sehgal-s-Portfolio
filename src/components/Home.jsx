@@ -94,7 +94,7 @@ const Home = () => {
         </div>
         {/* image div */}
         <div className="flex items-center justify-center w-3/4 lg:w-1/2 ">
-          <div className="flex items-center justify-center w-full lg:w-1/2">
+          <div className="flex items-center justify-center w-full ">
             <img
               src="https://github.com/yashsehgal29/images/blob/main/Mask%20group.png?raw=true"
               alt="Yash Sehgal"
