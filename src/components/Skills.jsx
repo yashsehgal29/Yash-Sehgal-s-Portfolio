@@ -69,7 +69,7 @@ const data = [
 ];
 const Skills = () => {
   return (
-    <div className="w-screen h-fit  bg-[url('/src/assets/bg_2.png')] bg-cover bg-fixed  bg-top   bg-no-repeat ">
+    <div className="w-screen h-fit ">
       <div className="pt-8">
         <h1 className="text-4xl font-bold text-center lg:text-5xl font-comforta">
           Skills

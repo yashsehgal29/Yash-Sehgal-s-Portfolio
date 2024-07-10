@@ -32,7 +32,7 @@ const data = [
 ];
 const Projects = () => {
   return (
-    <div className="w-screen h-fit  bg-[url('/src/assets/bg_2.png')] bg-cover bg-fixed  bg-top pt-10   bg-no-repeat ">
+    <div className="w-screen h-fit ">
       <div className="pt-8">
         <h1 className="mb-5 text-4xl font-bold text-center lg:text-5xl font-comforta">
           Projects

@@ -7,7 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 const handledownload = () => {};
 const Home = () => {
   return (
-    <div className="w-[100%] h-[85vh] bg-[url('https://github.com/yashsehgal29/images/blob/main/bg_2.png?raw=true')] bg-cover  bg-fixed  bg-top   bg-no-repeat   ">
+    <div className="w-[100%] h-[85vh]   ">
       <div className="w-full flex justify-center items-center h-[80vh] p-10 lg:flex-row flex-col-reverse gap-y-6">
         {/* content div */}
         <div className="flex flex-col justify-center w-full pl-5 lg:w-1/3 lg:pl-20 ">

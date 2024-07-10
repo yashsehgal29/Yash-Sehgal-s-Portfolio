@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "./Layout";
 const About = () => {
   return (
-    <div className="w-screen h-fit lg:h-screen ">
+    <div className="w-screen h-fit lg:h-screen bg-[#232222] ">
       {/* heading */}
       <div className="pt-10" id="about">
         <h1 className="text-4xl font-bold text-center lg:text-5xl font-comforta">

@@ -12,8 +12,9 @@ import FadeInSection from "./components/FadeinSection";
 
 function App() {
   return (
-    <div className="w-screen bg-[#232222] bg-cover text-[#14FFEC] overflow-x-hidden">
+    <div className="w-screen bg-[#232222]  text-[#14FFEC] overflow-x-hidden bg-[url('https://github.com/yashsehgal29/images/blob/main/bg_2.png?raw=true')] bg-cover bg-fixed  bg-top   bg-no-repeat ">
       <Header />
+
       <div className="pt-24">
         <FadeInSection>
           <div id="home">
@@ -31,11 +32,13 @@ function App() {
           </div>
         </FadeInSection>
         <FadeInSection>
+          {" "}
           <div id="projects">
             <Projects />
           </div>
         </FadeInSection>
         <FadeInSection>
+          {" "}
           <div id="contact">
             <Contact />
           </div>

@@ -23,7 +23,7 @@ const Contact = () => {
     });
   };
   return (
-    <div className="w-screen h-[100vh] pt-10">
+    <div className="w-screen h-[100vh] pt-10 bg-[#232222] ">
       <div className="pt-8">
         <h1 className="text-4xl font-bold text-center md:text-4xl lg:text-5xl font-comforta">
           Contact Me
