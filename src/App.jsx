@@ -23,7 +23,7 @@ function App() {
         <div
           id="home"
           ref={homeRef}
-          className={`transition-opacity duration-1000 ${
+          className={`transition-opacity duration-2000 ${
             homeInView ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -32,7 +32,7 @@ function App() {
         <div
           id="about"
           ref={aboutRef}
-          className={`transition-opacity duration-1000 ${
+          className={`transition-opacity duration-2000 ${
             aboutInView ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -41,7 +41,7 @@ function App() {
         <div
           id="skills"
           ref={skillsRef}
-          className={`transition-opacity duration-1000 ${
+          className={`transition-opacity duration-2000 ${
             skillsInView ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -50,7 +50,7 @@ function App() {
         <div
           id="projects"
           ref={projectsRef}
-          className={`transition-opacity duration-1000 ${
+          className={`transition-opacity duration-2000 ${
             projectsInView ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -59,7 +59,7 @@ function App() {
         <div
           id="contact"
           ref={contactRef}
-          className={`transition-opacity duration-1000 ${
+          className={`transition-opacity duration-2000 ${
             contactInView ? "opacity-100" : "opacity-0"
           }`}
         >
