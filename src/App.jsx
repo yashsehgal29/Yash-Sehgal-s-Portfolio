@@ -10,11 +10,11 @@ import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 
 function App() {
-  const [homeRef, homeInView] = useInView({ triggerOnce: true });
-  const [aboutRef, aboutInView] = useInView({ triggerOnce: true });
-  const [skillsRef, skillsInView] = useInView({ triggerOnce: true });
-  const [projectsRef, projectsInView] = useInView({ triggerOnce: true });
-  const [contactRef, contactInView] = useInView({ triggerOnce: true });
+  const [homeRef, homeInView] = useInView({ triggerOnce: false });
+  const [aboutRef, aboutInView] = useInView({ triggerOnce: false });
+  const [skillsRef, skillsInView] = useInView({ triggerOnce: false });
+  const [projectsRef, projectsInView] = useInView({ triggerOnce: false });
+  const [contactRef, contactInView] = useInView({ triggerOnce: false });
 
   return (
     <div className="w-screen bg-[#232222] bg-cover text-[#14FFEC] overflow-x-hidden">
@@ -23,7 +23,7 @@ function App() {
         <div
           id="home"
           ref={homeRef}
-          className={`transition-opacity duration-2000 ${
+          className={`transition-opacity duration-1000 ${
             homeInView ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -32,7 +32,7 @@ function App() {
         <div
           id="about"
           ref={aboutRef}
-          className={`transition-opacity duration-2000 ${
+          className={`transition-opacity duration-1000 ${
             aboutInView ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -41,7 +41,7 @@ function App() {
         <div
           id="skills"
           ref={skillsRef}
-          className={`transition-opacity duration-2000 ${
+          className={`transition-opacity duration-1000 ${
             skillsInView ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -50,7 +50,7 @@ function App() {
         <div
           id="projects"
           ref={projectsRef}
-          className={`transition-opacity duration-2000 ${
+          className={`transition-opacity duration-1000 ${
             projectsInView ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -59,7 +59,7 @@ function App() {
         <div
           id="contact"
           ref={contactRef}
-          className={`transition-opacity duration-2000 ${
+          className={`transition-opacity duration-5000 ${
             contactInView ? "opacity-100" : "opacity-0"
           }`}
         >
