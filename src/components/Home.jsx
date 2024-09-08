@@ -81,7 +81,7 @@ const Home = () => {
           {/* downloadcv button */}
           <div className="mt-[20px] w-fit">
             <a
-              href="https://drive.google.com/file/d/1Ohuniewoe5_Pcjy6IMbUebfkzcmk0-ta/view?usp=sharing"
+              href="https://drive.google.com/file/d/1eeQFiU9CP37ThszsC7XODcYH3TsZ5ujF/view?usp=drive_link"
               target="_blank"
               download={true}
             >
