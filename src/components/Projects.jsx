@@ -28,6 +28,12 @@ const data = [
     desc: " Developed a responsive and modern e-commerce web application using ReactJS and Tailwind CSS, with statemanagement via Redux Toolkit and Context API, and established protective routes for separate types of users.",
     gitlink: "https://github.com/yashsehgal29/Namaste-Mart",
     hostlink: "https://namaste-mart-opal.vercel.app/"
+  },
+  {
+    title: " Sudoku Solver",
+    desc: "  A web application designed to solve any valid Sudoku puzzle entered into the provided grid. It features a quick validation to ensure accurate input and employs an optimized backtracking algorithm for efficient puzzle-solving.",
+    gitlink: "https://github.com/yashsehgal29/Sudoku-Solver",
+    hostlink: "https://sudoku-solver-ten-xi.vercel.app/"
   }
 ];
 const Projects = () => {
