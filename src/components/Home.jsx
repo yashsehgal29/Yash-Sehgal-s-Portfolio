@@ -4,7 +4,6 @@ import { Linkedin } from "lucide-react";
 import { Instagram, Github, Mail, ArrowDownToLine } from "lucide-react";
 import { TypeAnimation } from "react-type-animation";
 
-const handledownload = () => {};
 const Home = () => {
   return (
     <div className="w-[100%] h-[85vh]   ">
@@ -81,7 +80,7 @@ const Home = () => {
           {/* downloadcv button */}
           <div className="mt-[20px] w-fit">
             <a
-              href="https://drive.google.com/file/d/1eeQFiU9CP37ThszsC7XODcYH3TsZ5ujF/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1sNj-0rpdmZIEjSO5WM6JoNfwetTLomLP/view?usp=drive_link"
               target="_blank"
               download={true}
             >

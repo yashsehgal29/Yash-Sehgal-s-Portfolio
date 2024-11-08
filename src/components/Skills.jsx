@@ -23,7 +23,7 @@ const data = [
   },
 
   {
-    skills: "React",
+    skills: "React JS",
     logopath:
       "https://github.com/yashsehgal29/images/blob/main/react.png?raw=true"
   },
@@ -65,6 +65,16 @@ const data = [
     skills: "Pandas",
     logopath:
       "https://github.com/yashsehgal29/images/blob/main/Pandas.png?raw=true"
+  },
+  {
+    skills: "Next JS",
+    logopath:
+      "https://raw.githubusercontent.com/yashsehgal29/images/refs/heads/main/nextjs-icon.webp"
+  },
+  {
+    skills: "Docker",
+    logopath:
+      "https://raw.githubusercontent.com/yashsehgal29/images/06c97a1d1aa3bab0c531809c021aa3075f175cfb/docker-mark-blue.svg"
   }
 ];
 const Skills = () => {
